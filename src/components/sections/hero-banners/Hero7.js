@@ -26,7 +26,8 @@ const Hero7 = ({ type }) => {
                     ""
                   ) : (
                     <div className="herobanner__small__text">
-                      <span className="text__gradient">BEST HR AGENCY</span>
+                      <span className="text__gradient">Your Vision is Within Reach
+                      </span>
                     </div>
                   )}
                   <div className="herobanner__title herobanner__title--2">
@@ -42,33 +43,33 @@ const Hero7 = ({ type }) => {
                       ) : (
                         <>
                           {" "}
-                          We Optimize Your{" "}
+                          {" "}
                           <span className="text__gradient">
-                            Human Resource
+                          IDEA, MEET KNOW-HOW
                           </span>{" "}
-                          Process.
+                          
                         </>
                       )}
                     </h1>
                   </div>
                   <div className="herobanner__text herobanner__text--2">
                     <p>
-                      Sagittis purus amet volutpat consequat mauris nunc congue
-                      nisi and tortor.
+                    WE BUILD WEB EXPERIENCES.
+                    .
                     </p>
                   </div>
                   <div className="herobanner__button">
                     <ButtonPrimary
-                      text={"OUR ALL SERVICES"}
-                      path={"/service"}
+                      text={"Dare To Achieve it"}
+                      path={"#"}
                     />
-                    <div className="video__button">
+                    {/* <div className="video__button">
                       <ButtonPopup
                         link={"https://www.youtube.com/watch?v=gLb2Gbo_bbs"}
                       />
 
                       <span className="video__button__text"> Watch Demo</span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
