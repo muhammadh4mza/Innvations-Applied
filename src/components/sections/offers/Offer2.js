@@ -78,21 +78,20 @@ const Offer2 = ({ type, isVideo, img, title, tag, id, pt }) => {
                       ? title
                       : type === 2
                       ? "NEXT LEVEL ANALYTICS TO CONTROL YOUR BUSINESS."
-                      : "Your one-stop solution for all Human Resource needs."}
+                      : "UX & UI Design"}
                   </h3>
                 </div>
               </div>
               <p className="sp_bottom_10">
-                Welcome to our comprehensive HR solutions hub, your one-stop
-                destination for addressing all your HR needs. Whether {"you're"}{" "}
-                a small startup or a large corporation.
+              An important foundation of any web site or app is a well designed and tested user experience and interface. UX/UI discovery and design is a core part of our service.
               </p>
               <div className="about__list">
                 <ul>
                   <li>
-                    <i className="icofont-check"></i>Hiring Solution
+                    <i className="icofont-check"></i>Build for Results
+
                   </li>
-                  <li>
+                  {/* <li>
                     <i className="icofont-check"></i>Finding the right talent
                   </li>
                   <li>
@@ -107,7 +106,7 @@ const Offer2 = ({ type, isVideo, img, title, tag, id, pt }) => {
                   <li>
                     <i className="icofont-check"></i>A positive workplace
                     culture
-                  </li>
+                  </li> */}
                 </ul>
               </div>
               <div className="about__vision__wrapper">
