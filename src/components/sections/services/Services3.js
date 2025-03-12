@@ -9,7 +9,7 @@ const Services3 = () => {
     <div
       className="service sp_top_140 sp_bottom_140 special__spacing"
       id="service__area"
-      style={{ background: `url('${serviceBgImage.src}')` }}
+      style={{ background: `url('${serviceBgImage.src}')`,backgroundSize: 'cover' }}
     >
       <div className="container">
         <div className="row">
@@ -20,7 +20,7 @@ const Services3 = () => {
           >
             <div className="section__title section__title--3 text-center sp_bottom_80">
               <div className="section__title__button">
-                <span>Our Service</span>
+                <span className="text__gradient">Our Service</span>
               </div>
               <div className="section__title__heading">
                 <h3>WE PROVIDE HIGHT QUALITY CONSULTING SERVICE</h3>

@@ -2,11 +2,7 @@
 
 /*********************************************************************************
 
-	 Template: Bastun - Multipurpose Next Js Template
-    Author: Kamrul Hasan
-    Support: hasankamrul3496@gmail.com
-    Description: Bastun - Multipurpose Next Js Template 
-    Version: 1.0.0
+	 
 
 **********************************************************************************/
 /**************************************************************
@@ -141,6 +137,7 @@ p {
   font-size: 17px;
   margin-bottom: 15px;
   color: var(--contentColor);
+  font-family: "Manjari", sans-serif;
 }
 
 a,
@@ -946,10 +943,10 @@ li {
 }
 
 .default__button {
-  padding: 20px 45px;
+  padding: 20px 35px;
   background: var(--gradientColor);
   color: var(--whiteColor);
-  font-size: 14px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -1161,11 +1158,11 @@ button.default__button {
   }
 }
 .section__title__heading h3 {
-  color: var(--blackColor);
+  color: #212529;
   text-align: center;
-  font-size: 37px;
+  font-size: 49px;
   font-weight: 700;
-  line-height: 50px;
+  line-height: 59px;
   margin: 0;
 }
 @media (min-width: 992px) and (max-width: 1365px) {
@@ -4048,16 +4045,22 @@ button.default__button {
 }
 .service {
   position: relative;
-  background-color: var(--pinkcolor);
+  background-color: #000000a2 !important;
 }
 .service__single__wraper {
   padding: 32px 45px 40px;
-  background: var(--whiteColor);
+  /* background: var(--whiteColor); */
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
   text-align: center;
-  border-radius: var(--borderRadius);
+  /* border-radius: var(--borderRadius); */
   position: relative;
   overflow: hidden;
+ background: rgba(255, 255, 255, 0.2);
+ border-radius: 16px;
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+ backdrop-filter: blur(5px);
+ -webkit-backdrop-filter: blur(5px);
+ border: 1px solid rgba(255, 255, 255, 0.3);
 }
 @media (min-width: 1366px) and (max-width: 1499px) {
   .service__single__wraper {
@@ -8002,10 +8005,12 @@ button.default__button {
   font-size: 32px;
   font-weight: 700;
   color: var(--whiteColor);
+  font-family: "Manjari", sans-serif;
 }
 .facts__single__counter p {
   margin: 0;
   color: var(--whiteColor);
+  font-family: "Manjari", sans-serif;
 }
 @media (max-width: 767px) {
   .facts__single {
@@ -11610,4 +11615,8 @@ Dark Mode
 }
 .form-messege {
   color: var(--borderColor3);
+}
+a {
+  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+  text-decoration: none !important;
 }
