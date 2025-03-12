@@ -3,16 +3,16 @@ import brandImage4 from "@/assets/img/brand/brand__4.png";
 
 const HeaderAnimate = () => {
   const items = [
-    { name: "LEGAL CONSULTING", img: brandImage4 },
-    { name: "LEGAL CONSULTING", img: brandImage4 },
-    { name: "LEGAL CONSULTING", img: brandImage4 },
-    { name: "LEGAL CONSULTING", img: brandImage4 },
-    { name: "LEGAL CONSULTING", img: brandImage4 },
-    { name: "LEGAL CONSULTING", img: brandImage4 },
-    { name: "LEGAL CONSULTING", img: brandImage4 },
-    { name: "LEGAL CONSULTING", img: brandImage4 },
-    { name: "LEGAL CONSULTING", img: brandImage4 },
-    { name: "LEGAL CONSULTING", img: brandImage4 },
+    { name: "INNVATIONS APPLIED", img: brandImage4 },
+    { name: "INNVATIONS APPLIED", img: brandImage4 },
+    { name: "INNVATIONS APPLIED", img: brandImage4 },
+    { name: "INNVATIONS APPLIED", img: brandImage4 },
+    { name: "INNVATIONS APPLIED", img: brandImage4 },
+    { name: "INNVATIONS APPLIED", img: brandImage4 },
+    { name: "INNVATIONS APPLIED", img: brandImage4 },
+    { name: "INNVATIONS APPLIED", img: brandImage4 },
+    { name: "INNVATIONS APPLIED", img: brandImage4 },
+    { name: "INNVATIONS APPLIED", img: brandImage4 },
   ];
   return (
     <div className="header__animate">

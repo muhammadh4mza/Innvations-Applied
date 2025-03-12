@@ -92,8 +92,9 @@ const About5 = ({ type, desc, title, img }) => {
                       title
                     ) : (
                       <>
-                        Your one-stop solution for All HR Needs Since{" "}
-                        <span className="text__gradient">1998.</span>{" "}
+                        UX & UI Design
+
+                        {/* <span className="text__gradient">1998.</span>{" "} */}
                       </>
                     )}
                   </h3>
@@ -103,7 +104,9 @@ const About5 = ({ type, desc, title, img }) => {
                   <p>
                     {desc
                       ? desc
-                      : "Welcome to our comprehensive HR solutions hub, your one-stop destination for addressing all your HR needs."}
+                      : "An important foundation of any web site or app is a well designed and tested user experience and interface. UX/UI discovery and design is a core part of our service."}
+
+
                   </p>
                 </div>
               </div>
@@ -131,7 +134,7 @@ const About5 = ({ type, desc, title, img }) => {
               ) : (
                 <div className="about__hiring__list">
                   <ul>
-                    <li>
+                    {/* <li>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -155,8 +158,8 @@ const About5 = ({ type, desc, title, img }) => {
                         <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
                       </svg>{" "}
                       Hiring
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -213,7 +216,7 @@ const About5 = ({ type, desc, title, img }) => {
                         <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                       </svg>{" "}
                       Culture
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               )}

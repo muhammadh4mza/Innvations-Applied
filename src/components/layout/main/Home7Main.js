@@ -11,7 +11,7 @@ import React from "react";
 import Video from "@/components/sections/videos/Video";
 import Hero7 from "@/components/sections/hero-banners/Hero7";
 import About5 from "@/components/sections/about/About5";
-import Services4 from "@/components/sections/services/Services4";
+import Services3 from "@/components/sections/services/Services3";
 import Offer2 from "@/components/sections/offers/Offer2";
 import Testimonials from "@/components/sections/testimonials/Testimonials";
 import Team from "@/components/sections/team/Team";
@@ -24,7 +24,7 @@ const Home7Main = () => {
       <Hero7 />
       <Features2 />
       <About5 />
-      <Services4
+      <Services3
         title={"WE OFFER CONSULTANCY SERVICES."}
         service={2}
         desc={
