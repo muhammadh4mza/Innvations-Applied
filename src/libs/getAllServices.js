@@ -145,42 +145,6 @@ const getAllServices = () => {
       title: "Agency Consulting",
       desc: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       detailsImg: projectImage12,
-      img: serviceImage13,
-      category: "Business Process",
-      duration: "1500",
-    },
-    {
-      id: 15,
-      title: "HR Consulting",
-      desc: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      detailsImg: projectImage11,
-      img: serviceImage14,
-      category: "Market Entry Strategy",
-      duration: "1700",
-    },
-    {
-      id: 16,
-      title: "IT Consulting",
-      desc: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      detailsImg: projectImage15,
-      img: serviceImage15,
-      category: "Business Process",
-      duration: "1900",
-    },
-    {
-      id: 17,
-      title: "Legal Consulting",
-      desc: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      detailsImg: projectImage14,
-      img: serviceImage16,
-      category: "Financial Restructuring",
-      duration: "2100",
-    },
-    {
-      id: 18,
-      title: "STRATEGY PLANNING",
-      desc: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      detailsImg: projectImage13,
       img: serviceImage9,
       category: "Business Process",
       duration: "1500",
@@ -211,7 +175,7 @@ const getAllServices = () => {
       img: serviceImage12,
       category: "Cost Reduction Analysis",
       duration: "2100",
-    },
+    }
   ];
   return services;
 };
