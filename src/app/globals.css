@@ -60,7 +60,7 @@
  */
 :root {
   --bodyColor: #222222;
-  --bodyBg: #f5f5f5;
+  --bodyBg: #1D1D1D;
   --whiteColor: #ffffff;
   --blackColor: #0a0624;
   --blackBlue: #110c34;
@@ -126,7 +126,7 @@ Default CSS
 
 body {
   font-family: "Manjari", sans-serif;
-  background-color: #f5f5f5;
+  background-color: #1D1D1D !important;
   font-size: 17px;
   font-weight: 400;
   line-height: 32px;
