@@ -9,7 +9,7 @@ import PinkColor from "@/components/shared/others/PinkColor";
 import { useHeaderContex } from "@/providers/HeaderContex";
 import React from "react";
 import Video from "@/components/sections/videos/Video";
-import Hero7 from "@/components/sections/hero-banners/Hero7";
+import Hero3 from "@/components/sections/hero-banners/Hero3";
 import About5 from "@/components/sections/about/About5";
 import Services3 from "@/components/sections/services/Services3";
 import Offer2 from "@/components/sections/offers/Offer2";
@@ -17,11 +17,13 @@ import Testimonials from "@/components/sections/testimonials/Testimonials";
 import Team from "@/components/sections/team/Team";
 import Blogs from "@/components/sections/blogs/Blogs";
 import Brands from "@/components/sections/brands/Brands";
+import Hero3Slide from "@/components/shared/hero-banner/Hero3Slide";
+import Hero12 from "@/components/sections/hero-banners/Hero12";
 const Home7Main = () => {
   const { isOnepage } = useHeaderContex();
   return (
     <main>
-      <Hero7 />
+      <Hero12 />
       <Features2 />
       <About5 />
       <Services3

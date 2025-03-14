@@ -3209,8 +3209,8 @@ button.default__button {
 }
 
 .herobanner {
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
   position: relative;
 }
 @media (min-width: 768px) and (max-width: 991px) {
